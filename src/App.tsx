@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import SkeletonLoader from './components/SkeletonLoader/SkeletonLoader';
+import './App.css'; // Import CSS for styling
+import Grid from '@mui/material/Grid';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container spacing={8}>
+      <SkeletonLoader loading />
+      <Grid item xs={12} md={6}>
+        <SkeletonLoader />
+      </Grid>
+    </Grid>
   );
 }
 

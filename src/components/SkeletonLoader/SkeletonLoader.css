@@ -1,0 +1,43 @@
+.skeleton-loader-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skeleton-loader-box {
+  width: 100%;
+}
+
+.app-bar {
+  width: 100%;
+}
+
+.menu-icon {
+  margin-right: 2;
+}
+
+.menu-typography {
+  flex-grow: 1;
+}
+
+.image-box {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.avatar-list-container {
+  display: flex;
+  flex-direction: row; /* Adjusted to display items in a column */
+  align-items: center; /* Center align items */
+  margin-top: 16px;
+}
+
+.avatar-box {
+  margin: 16px 0; /* Add margin for spacing */
+}
+
+.list-box {
+  width: 100%;
+}
