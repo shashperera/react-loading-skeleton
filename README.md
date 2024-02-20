@@ -9,19 +9,19 @@ To use React Loading Skeleton in your React project, follow these steps:
 1. Install the library using npm or yarn:
 
    ```bash
-   npm install react-loading-skeleton
+   npm install react-loading-skeleton-menu
    ```
 
    or
 
    ```bash
-   yarn add react-loading-skeleton
+   yarn add react-loading-skeleton-menu
    ```
 
 2. Import the Skeleton component and use it in your components:
 
    ```jsx
-   import Skeleton from 'react-loading-skeleton';
+   import Skeleton from 'react-loading-skeleton-menu';
 
    const MyComponent = () => {
      return (
