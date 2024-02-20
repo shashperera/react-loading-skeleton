@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SkeletonLoader from './components/SkeletonLoader/SkeletonLoader';
 import './App.css'; // Import CSS for styling
 import Grid from '@mui/material/Grid';
 
 function App() {
-  const [loading, setLoading] = useState(true);
-
   return (
     <Grid container spacing={8}>
       <SkeletonLoader loading />
