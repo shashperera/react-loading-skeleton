@@ -1,6 +1,7 @@
 {
   "name": "react-loading-skeleton-menu",
   "version": "0.1.0",
+  "license": "MIT",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.3",
