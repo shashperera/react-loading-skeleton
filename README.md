@@ -1,4 +1,6 @@
 # React Loading Skeleton
+Live demo on [CodeSandbox](https://xorivvmgb.github.stackblitz.io).
+
 ## Menu, Image and List 
 React Loading Skeleton is a library for creating beautiful, animated loading skeletons that automatically adapt to your app's design. This README provides basic usage, principles, and props reference for the library.
 
