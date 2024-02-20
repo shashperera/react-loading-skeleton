@@ -1,7 +1,7 @@
 {
   "name": "react-loading-skeleton",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -44,8 +44,6 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/dom": "^9.3.4",
-    "@testing-library/react": "^14.2.1",
-    "jest": "^27.5.1"
+    "@testing-library/react": "^14.2.1"
   }
 }
